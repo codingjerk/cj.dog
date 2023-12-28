@@ -1,0 +1,66 @@
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial, Roboto, Noto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  max-width: 5in;
+  margin: 6em auto;
+
+  color: white;
+
+  line-height: 1.5;
+  text-align: justify;
+}
+
+section h2 {
+  margin-top: 1em;
+  color: #de6060;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 7px;
+    color: black;
+    background-color: white;
+    padding: 0.25em 1em;
+    border-radius: 69em;
+}
+
+#resources ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#resources li {
+    display: inline-block;
+    margin: 7px;
+    color: black;
+    background-color: white;
+    padding: 0.25em 1em;
+    border-radius: 69em;
+}
+
+#resources li a {
+  color: #be4040;
+}

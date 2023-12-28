@@ -1,0 +1,7 @@
+# Ignore everything
+**
+
+# But whitelist the specific directories and files needed for the build
+!static/index.html
+!static/style.css
+!config/nginx.conf
