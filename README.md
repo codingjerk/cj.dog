@@ -11,6 +11,12 @@ docker-compose up -d
 ### Deploy without compose
 
 ```sh
+./deploy.sh
+```
+
+or:
+
+```sh
 docker build --tag cj.dog .
 docker run --detach --publish=80:80 --name=cj.dog --restart=always cj.dog
 ```
