@@ -3,6 +3,7 @@
 
 # But whitelist the specific directories and files needed for the build
 !static/index.html
-!static/cctv.html
 !static/style.css
+!static/cctv.html
+!static/hedgehog.png
 !config/nginx.conf
